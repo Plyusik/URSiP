@@ -1,0 +1,22 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  margin-top: 2rem;
+  position: relative;
+}
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  --black-color: rgba(0, 0, 0, 0.87);
+  --blue-color: #367bf5;
+  --white-color: #fff;
+  --whitish-color: #f7f9fa;
+  --gray-color: #5e6366;
+  --gray-light-color: #e3e5e6;
+  --gray-border: 1px solid #c6cacc;
+}
